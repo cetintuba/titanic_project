@@ -5,7 +5,7 @@ Amacımız, Titanic kazasında yolcuların **hayatta kalıp kalmayacağını tah
 
 ---
 
-## 📂 Dosyalar
+# Dosyalar
 
 - `train.csv` → Eğitim verisi (hayatta kalma bilgisi var)
 - `test.csv` → Test verisi (hayatta kalma bilgisi yok, model tahmin edecek)
@@ -14,7 +14,7 @@ Amacımız, Titanic kazasında yolcuların **hayatta kalıp kalmayacağını tah
 
 ---
 
-## 📝 Adımlar
+# Adımlar
 
 1. **Veri Okuma:** `train.csv` ve `test.csv` dosyalarını pandas ile oku
 2. **Eksik Verileri Doldurma:** Age, Fare ve Embarked sütunlarındaki boş değerleri doldur
@@ -27,16 +27,10 @@ Amacımız, Titanic kazasında yolcuların **hayatta kalıp kalmayacağını tah
 
 ---
 
-## 📊 Kullanılan Kütüphaneler
+# Kullanılan Kütüphaneler
 
 - `pandas` → Veri okuma ve tablo işlemleri  
 - `numpy` → Sayısal hesaplamalar  
 - `sklearn` → Modelleme ve doğrulama  
 - `LogisticRegression` → Basit tahmin modeli  
 - `accuracy_score` → Doğruluk ölçümü
-
----
-
-## ⚡ Notlar
-
-- Daha iyi sonuç için Random Forest veya XGBoost kullanılabilir, özellik mühendisliği yapılabilir.
